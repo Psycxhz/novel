@@ -146,6 +146,10 @@ var _default =
     return {};
 
 
+  },
+  methods: {},
+
+  created: function created() {
   } };exports.default = _default;
 
 /***/ })
