@@ -1,0 +1,72 @@
+{
+	"pages": [
+		{
+			"path" : "pages/home/home",
+			"style" :
+			{
+			    "navigationBarTitleText": "首页",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/ranking/ranking",
+			"style" :
+			{
+			    "navigationBarTitleText": "分类",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/sort/sort",
+			"style" :
+			{
+			    "navigationBarTitleText": "排行",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/booklist/booklist",
+			"style" :
+			{
+			    "navigationBarTitleText": "书单",
+			    "enablePullDownRefresh": false
+			}
+		}
+	],
+	"tabBar":{
+		"selectedColor":"#ff3c3c",
+		"list":[
+			{
+				"pagePath":"pages/home/home",
+				"text":"首页",
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/homefill.png"
+			},
+			{
+				"pagePath":"pages/ranking/ranking",
+				"text":"分类",
+				"iconPath":"static/tabbar/sort.png",
+				"selectedIconPath":"static/tabbar/sortfill.png"
+			},
+			{
+				"pagePath":"pages/sort/sort",
+				"text":"排行"
+			},
+			{
+				"pagePath":"pages/booklist/booklist",
+				"text":"书单",
+				"iconPath":"static/tabbar/searchlist.png",
+				"selectedIconPath":"static/tabbar/searchlist-fill-copy.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
