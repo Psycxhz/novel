@@ -1,43 +1,59 @@
 {
-  "pages": [
-    "pages/home/home",
-    "pages/ranking/ranking",
-    "pages/sort/sort",
-    "pages/booklist/booklist"
-  ],
-  "subPackages": [],
-  "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
-  },
-  "tabBar": {
-    "selectedColor": "#ff3c3c",
-    "list": [
-      {
-        "pagePath": "pages/home/home",
-        "text": "首页",
-        "iconPath": "static/tabbar/home.png",
-        "selectedIconPath": "static/tabbar/homefill.png"
-      },
-      {
-        "pagePath": "pages/ranking/ranking",
-        "text": "分类",
-        "iconPath": "static/tabbar/sort.png",
-        "selectedIconPath": "static/tabbar/sortfill.png"
-      },
-      {
-        "pagePath": "pages/sort/sort",
-        "text": "排行"
-      },
-      {
-        "pagePath": "pages/booklist/booklist",
-        "text": "书单",
-        "iconPath": "static/tabbar/searchlist.png",
-        "selectedIconPath": "static/tabbar/searchlist-fill-copy.png"
-      }
-    ]
-  },
-  "usingComponents": {}
+    "pages": [
+        "pages/home/home",
+        "pages/ranking/ranking",
+        "pages/sort/sort",
+        "pages/booklist/booklist",
+        "pages/bookshelf/bookshelf"
+    ],
+    "subPackages": [
+        {
+            "root": "subPackages",
+            "pages": [
+                "booksDetail/booksDetail",
+                "booksListType/booksListType",
+                "readBook/readBook",
+                "sortDetails/sortDetails"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "selectedColor": "#ff3c3c",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "static/tabbar/home.png",
+                "selectedIconPath": "static/tabbar/homefill.png"
+            },
+            {
+                "pagePath": "pages/ranking/ranking",
+                "text": "分类",
+                "iconPath": "static/tabbar/sort.png",
+                "selectedIconPath": "static/tabbar/sortfill.png"
+            },
+            {
+                "pagePath": "pages/bookshelf/bookshelf",
+                "text": "书架"
+            },
+            {
+                "pagePath": "pages/sort/sort",
+                "text": "排行"
+            },
+            {
+                "pagePath": "pages/booklist/booklist",
+                "text": "书单",
+                "iconPath": "static/tabbar/searchlist.png",
+                "selectedIconPath": "static/tabbar/searchlist-fill-copy.png"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
 }

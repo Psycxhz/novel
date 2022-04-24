@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.category-title {
+  font-size: 13px;
+  padding: 15px 0 15px 10px;
+  border-bottom: 1px solid #E0e0e0;
+}
+.type {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.type .grid {
+  flex: 1;
+  width: 33.3333333%;
+  max-width: 33.3333333%;
+  min-width: 33.3333333%;
+  padding: 0.266667rem;
+  height: 50px;
+  box-sizing: border-box;
+  border-top: 0.013333rem solid #f8f8f8;
+  border-right: 0.013333rem solid #f8f8f8;
+  border-bottom: 0.013333rem solid #f8f8f8;
+}
+.type .grid .type-title {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+.type .grid .count {
+  font-size: 12px;
+  text-align: center;
+  color: #E0e0e0;
+}
+

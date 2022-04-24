@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.book-detail {
+  width: 100%;
+  display: flex;
+}
+.book-detail .cover {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+}
+.book-detail .cover image {
+  width: 90%;
+  height: 100%;
+}
+.book-detail .desc {
+  margin-top: 20px;
+  color: #999999;
+  font-size: 12px;
+}
+.book-detail .desc .h1 {
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+}
+.book-detail .desc .info {
+  margin-top: 7px;
+}
+.book-detail .desc .updata {
+  margin-top: 7px;
+}
+.read-link {
+  margin-top: 20px;
+  width: 100%;
+  justify-content: space-around;
+  height: 50px;
+  display: flex;
+  flex: 1;
+}
+.read-link .sj {
+  width: 10rem;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #409eff;
+  color: #409eff;
+}
+.read-link .read {
+  width: 10rem;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  background-color: #409eff;
+}
+.reader-data {
+  display: flex;
+  height: 50px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+}
+.reader-data .reader-data-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.reader-data .reader-data-item text {
+  margin-top: 5px;
+  text-align: center;
+}
+.reader-data .reader-data-item .key {
+  color: #b399a6;
+}
+.introduction {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 12px;
+  color: #b399a6;
+}
+.introduction text {
+  display: block;
+  width: 90%;
+  line-height: 20px;
+  margin: 0 auto;
+}
+.comment .comment-title {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.comment .comment-list {
+  margin-top: 20px;
+  display: flex;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e0e0e0;
+}
+.comment .comment-list .comment-list-cover {
+  width: 20%;
+  box-sizing: border-box;
+  margin: 0px 0px 0px 10px;
+}
+.comment .comment-list .comment-list-cover image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.comment .comment-list .comment-list-r {
+  width: 80%;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+.comment .comment-list .comment-list-r .comment-list-name {
+  color: #b399a6;
+}
+.comment .comment-list .comment-list-r .comment-list-title {
+  height: 20px;
+  font-weight: bold;
+}
+.comment .comment-list .comment-list-r .comment-list-content {
+  line-height: 20px;
+}
+.comment .comment-list .comment-list-r text {
+  display: block;
+}
+

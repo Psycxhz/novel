@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.header {
+  width: 100%;
+  position: fixed;
+  height: 80px;
+  top: 0;
+  background-color: #fff;
+}
+.type {
+  display: flex;
+}
+.type text {
+  font-size: 12px;
+  padding: 10px;
+}
+.type .color {
+  color: #409eff;
+}
+.typeSmall {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.typeSmall .scllo {
+  height: 30px;
+}
+.typeSmall .scllo text {
+  font-size: 12px;
+  padding: 10px;
+}
+.typeSmall .scllo .color {
+  color: #409eff;
+}
+.top {
+  margin-top: 90px;
+}
+

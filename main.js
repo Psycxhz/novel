@@ -5,8 +5,8 @@ import App from './App'
 import { $http } from '@escook/request-miniprogram'
 
 uni.$http = $http
-
-$http.baseUrl = 'http://api.zhuishushenqi.com/'
+//http://localhost:8081/content/chapter/
+$http.baseUrl = 'http://api.zhuishushenqi.com'
 
 // 请求开始之前做一些事情
 $http.beforeRequest = function (options) {

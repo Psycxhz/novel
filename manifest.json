@@ -52,7 +52,8 @@
         "appid" : "wxafb4d2ad2257c5c0",
         "setting" : {
             "urlCheck" : false,
-            "postcss" : true
+            "postcss" : true,
+			"checkSiteMap":false
         },
         "usingComponents" : true
     }

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.header {
+  display: flex;
+  align-items: center;
+}
+.header .header-item {
+  text-align: center;
+  flex: 1;
+  height: 2rem;
+  border: 1px solid transparent;
+  line-height: 2rem;
+}
+.header .cbor {
+  color: #409eff;
+  border-bottom: 1px solid #409eff;
+}
+

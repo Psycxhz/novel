@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.root-item .title {
+  font-size: 12px;
+  margin: 1rem;
+}
+.root-item .root-item-sort {
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  align-items: center;
+}
+.root-item .root-item-sort image {
+  margin-left: 1rem;
+  width: 2rem;
+  height: 50%;
+}
+.root-item .root-item-sort .topName {
+  margin-left: 1rem;
+  font-size: 13px;
+}
+

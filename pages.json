@@ -32,7 +32,16 @@
 			    "enablePullDownRefresh": false
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/bookshelf/bookshelf",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "书架",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"tabBar":{
 		"selectedColor":"#ff3c3c",
 		"list":[
@@ -49,6 +58,10 @@
 				"selectedIconPath":"static/tabbar/sortfill.png"
 			},
 			{
+				"pagePath":"pages/bookshelf/bookshelf",
+				"text":"书架"
+			},
+			{
 				"pagePath":"pages/sort/sort",
 				"text":"排行"
 			},
@@ -60,6 +73,46 @@
 			}
 		]
 	},
+	"subPackages":[{
+		"root":"subPackages",
+		"pages":[
+			{
+				"path": "booksDetail/booksDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}
+                ,{
+                    "path" : "booksListType/booksListType",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": true
+                }
+                
+                }
+                ,{
+                    "path" : "readBook/readBook",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+					"navigationStyle":"custom"
+                }
+                
+                }
+                ,{
+                    "path" : "sortDetails/sortDetails",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
